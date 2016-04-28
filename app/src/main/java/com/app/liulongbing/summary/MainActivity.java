@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new Callback<JSONObject>() {
             @Override
             public void onResponse(Response<JSONObject> response, Retrofit retrofit) {
-                Log.i("=======",response.headers()+"");
+                Log.i("========",response.headers()+"");
                 Log.i("=======",response.body()+"");
             }
 
